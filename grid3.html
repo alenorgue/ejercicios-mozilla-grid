@@ -30,7 +30,17 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       gap: 10px;
+      grid-template-areas: 
+      "aa aa"
+      "bb  cc"
+      ". dd"
+      ;
     }
+
+    .one {grid-area: aa;}
+    .two {grid-area: bb;}
+    .three {grid-area: cc;}
+    .four {grid-area: dd;}
   </style>
 
 </head>
